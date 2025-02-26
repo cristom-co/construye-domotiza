@@ -6,14 +6,14 @@ const Navbar = () => {
     return (
         <nav className="flex items-center justify-center p-3 text-gray-500 gap-10 h-[100px]">
             {/* Enlaces a la izquierda */}
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
                 <Link href="/" className="hover:text-gray-400 font-semibold">
                     Inicio
                 </Link>
                 <Link href="/servicios" className="hover:text-gray-400 font-semibold">
                     Servicios
                 </Link>
-            </div>
+            </div> */}
 
             {/* Logo en el centro */}
             <div>
@@ -27,14 +27,14 @@ const Navbar = () => {
             </div>
 
             {/* Enlaces a la derecha */}
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
                 <Link href="/obras" className="hover:text-gray-400 font-semibold">
                     Obras
                 </Link>
                 <Link href="/contacto" className="hover:text-gray-400 font-semibold">
                     Contacto
                 </Link>
-            </div>
+            </div> */}
         </nav>
     );
 };
