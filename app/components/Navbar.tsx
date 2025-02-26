@@ -1,5 +1,4 @@
 // components/Navbar.js
-import Link from 'next/link';
 import Image from 'next/image'; // Importa el componente Image de Next.js
 
 const Navbar = () => {
