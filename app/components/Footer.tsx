@@ -3,7 +3,6 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer className="fixed bottom-4 right-4">
-
             <a
                 href="https://wa.me/3166355792?text=Hola,%20quiero%20más%20información!"
                 target="_blank"
@@ -19,11 +18,7 @@ const Footer = () => {
                 />
                 <span className="font-medium">Escríbenos por WhatsApp aqui!</span>
             </a>
-
-
         </footer>
-
-
     )
 }
 
